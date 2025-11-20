@@ -1,0 +1,21 @@
+# --- Angular ---
+node_modules/
+dist/
+.angular/
+.vscode/
+*.log
+
+# --- Java / Spring Boot ---
+target/
+.mvn/
+mvnw
+mvnw.cmd
+*.class
+.idea/
+*.iml
+*.jar
+*.war
+
+# --- OS ---
+.DS_Store
+Thumbs.db
