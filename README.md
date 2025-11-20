@@ -94,4 +94,16 @@ JSON
 }
 2. Login
 You can now log in via the Angular interface at http://localhost:4200/login using these credentials.
+🔗 API Endpoints
+Public Endpoints
+Method,Endpoint,Description
+POST,/api/auth/register,Register a new user
+POST,/api/auth/login,Login and receive a JWT Token
+Protected Endpoints (Requires Bearer Token)
+Method,Endpoint,Description
+GET,/api/students,Retrieve all students
+GET,/api/students/{id},Retrieve a student by ID
+POST,/api/students,Create a new student (Validates Age > 20)
+PUT,/api/students/{id},Update an existing student
+DELETE,/api/students/{id},Delete a student
 
